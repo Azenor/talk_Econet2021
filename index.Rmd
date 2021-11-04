@@ -43,456 +43,906 @@ class: middle, title-slide
 <div class="lab-logo"></div>
 <!-- <div class="uni-logo"></div> -->
 
-# Title of my talk template
+# Effects of temperature on species and their trophic interactions
 
 <hr width="65%" align="left" size="0.3" color="orange"></hr>
 
-## My talk subtitle
+## A cross-scales perspective
 
-### Willian Vieira, .small[PhD candidate <br> + Collaborators]
+### Azenor Bideault, .small[PhD candidate <br> Dominique Gravel and Michel Loreau]
 
-<br><br><br><br><br>
-[<i class="fa fa-github fa-lg" style="color:#e7e8e2"></i> WillVieira/talkTemplate](https://github.com/willvieira/talkTemplate)
+<br><br>
+[<i class="fa fa-github fa-lg" style="color:#e7e8e2"></i> Azenor/talk_seminar2UdeS](https://github.com/Azenor/talk_seminar2UdeS)
 
-[<i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> @WillVieira90](https://twitter.com/willvieira90)
+[<i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> @Azenor_Bideault](https://twitter.com/Azenor_Bideault)
+
+---
+# How do communities differ from one pole to another ?
+
+.center[Spot the differences!]
+.pull-left[
+![:scale 95%](images/arctic.jpeg)
+]
+.pull-right[
+![](images/tropical_forest.jpg)
+]
+
+--
+
+- Species identity
+- Species richness
+- Interactions
+- ...
+
+---
+# Communities vary across space and time
+
+.pull-left[
+![:scale 120%](images/network1.svg)]
+
+---
+# Communities vary across space and time
+
+.pull-left[
+![:scale 100%](images/network2.svg)]
+
+.pull-right[
+- Identity of species
+]
+
+---
+# Communities vary across space and time
+
+.pull-left[
+![:scale 100%](images/network3.svg)]
+
+.pull-right[
+- Identity of species
+- Number of species
+]
+
+---
+# Communities vary across space and time
+
+.pull-left[
+![:scale 120%](images/network4.svg)]
+
+.pull-right[
+- Identity of species
+- Number of species
+- Biomass
+]
+
+---
+# Communities vary across space and time
+
+.pull-left[
+![:scale 120%](images/network5.svg)]
+
+.pull-right[
+- Identity of species
+- Number of species
+- Biomass
+- Interactions
+
+]
+
+---
+# Communities vary across space and time
+
+.pull-left[
+![:scale 120%](images/network6.svg)]
+
+.pull-right[
+- Identity of species
+- Number of species
+- Biomass
+- Interactions
+- Interaction strength
+
+]
+
+---
+# Communities vary across space and time
+
+.pull-left[
+![:scale 120%](images/network8.svg)]
+
+.pull-right[
+- Identity of species
+- Number of species
+- Biomass
+- Interactions
+- Interaction strength
+- Stability]
+
+--
+.center[How and why ?]
+
+---
+# Food webs vary across space and time
+
+.pull-left[
+
+![:scale 120%](images/trophic_interactions.png)
+<br>
+.center[Trophic interactions]]
+
+.pull-right[
+- Identity of species
+- Number of species
+- Biomass
+- Interactions
+- Interaction strength
+- Stability]
 
 ---
 
-# Introduction
+# Trophic interactions
 
-- How to setup
-- Content
-- `xaringanExtra` extensions
-- JS libraries
+.center[Are at the core of ecological systems]
+
+![](images/otter.png)
+
+.center[Trophic cascade : Sea otters indirectly enhance kelp abundance by consuming herbivorous sea urchins]
+
+.cite[Estes et al. [2011] Science]
 
 ---
 class: middle, center, inverse
 
-# How to use it?
+# What determines food webs structure and dynamics ?
 <hr width="100%" align="left" size="0.3" color="orange"></hr>
 
 ---
-# Workflow
+# Back to the x differences
 
-It is recomended to install all (R packages `r emo::ji("package")`) dependencies:
+.center[What else is different ?]
 
-```make
-make install
-```
-.font90[If you use other R packages for your presentation, add them to the `requeriments.yml` file]
+.pull-left[
+![:scale 95%](images/arctic.jpeg)
+]
+.pull-right[
+![](images/tropical_forest.jpg)
+]
+
+--
+
+.center[
+Environmental drivers :
+- Temperature
+- Precipitation]
+
+---
+# Temperature
+
+.pull-left[
+A major environmental gradient
+
+![](images/map_temperature.jpg)]
+
+--
+
+.pull-right[
+Global warming
+
+![:scale 80%](images/global_warming.jpg)]
+
+<br>
+.center[**What are the effects of temperature ?**]
+
+---
+# Effects of temperature
+
+<br>
+.center[
+From the individual to the community
+
+![](images/temp_orga_level.png)]
+
+---
+# Effects of temperature
+
+.center[
+On populations
+![](images/biological_rates_temp1.svg)]
+
+
+---
+# Effects of temperature
+
+.center[
+On their interactions
+![](images/biological_rates_temp2.svg)]
+
+---
+# Effects of temperature
+
+.center[
+On the structure and dynamics of consumer-resource systems
+![](images/biological_rates_temp4.svg)]
+
+
+---
+# Effects of temperature
+
+.center[
+On food webs
+
+![:scale 80%](images/temp_network.svg)
+- Structure
+- Dynamics
+- Stability]
+
+---
+# Lack of consensus
+
+- Hard to disentangle the various effects of temperature
+- How do they propagate ?
+- Effect of the temperature gradient $\neq$ effect of warming?
+
+Most studies explore :
+- One particular ecological system
+- One process at a time
+
+with different
+- experimental design
+- study system
+- theoretical framework
+- model assumptions
+
+<br>
+.center[**No synthetic understanding yet**]
+
+---
+class: middle, center, inverse
+
+# How does temperature affect species and their interactions ?
+## A cross-scales perspective
+<hr width="100%" align="left" size="0.3" color="orange"></hr>
+
+---
+# A cross-scales perspective
+
+.center[
+![:scale 90%](images/phd_3D.svg)]
+
+---
+# A cross-scale perspective
+
+.center[
+![:scale 55%](images/phd_3D2.svg)]
+
+- Thermal mismatches in biological rates determine trophic
+control and biomass distribution under warming
+
+---
+# A cross-scale perspective
+
+.center[
+![:scale 55%](images/phd_3D3.svg)]
+
+- Thermal mismatches in biological rates determine trophic
+control and biomass distribution under warming
+- Effects of temperature on fish food webs at the global scale
+
+.center[*Using theory*]
+
+---
+# A cross-scale perspective
+
+.center[
+![:scale 55%](images/phd_3D4.svg)]
+
+- Thermal mismatches in biological rates determine trophic
+control and biomass distribution under warming
+- Effects of temperature on fish food webs at the global scale
+- Short-term thermal adaptation of growth rates in wild bacteria
+strains
+
+.center[*Using theory and experiments*]
+
+---
+# A cross-scale perspective
+
+.center[
+![:scale 55%](images/phd_3D.svg)]
+
+- **Thermal mismatches in biological rates determine trophic
+control and biomass distribution under warming**
+- **Effects of temperature on fish food webs at the global scale**
+- Short-term thermal adaptation of growth rates in wild bacteria
+strains
+
+.center[*Theoretical approaches*]
+
+---
+class: middle, center, inverse
+# Thermal mismatches in biological rates determine trophic control and biomass distribution under warming
+## A cross-ecosystem comparison
+
+---
+# Food chain structural properties
+
+.center[
+Biomass distribution
+![:scale 80%](images/biomass_pyramids.png)]
+
+---
+# Food chain structural properties
+
+.center[
+Biomass distribution
+![:scale 80%](images/biomass_pyramids2.png)]
+
+---
+# Food chain dynamical features
+
+.center[
+Trophic control
+
+![:scale 80%](images/trophic_control.png)]
+
+---
+# Food chain dynamical features
+
+.center[
+Trophic control
+
+![:scale 80%](images/trophic_control2.png)]
+
+
+---
+# Temperature effects
+
+.center[
+**On food chain structure and dynamics**
+
+![:scale 90%](images/schema_temp_general.png)]
+
+---
+class: middle, center, inverse
+# Method
+
+---
+# Method
+
+.center[**How to (try to) answer big questions ?**
+
+One approach : using **small** models !]
 
 <br>
 
-Once dependencies are solved, you can server your presentation on local to be automatically updated while editing:
+Theoretical approach
+- simulate consumer-resource interactions
+- general overview (go beyond system particularities)
+- toward a synthetic understanding
 
-```make
-make server
-```
-
-Finally, publish your final `html` presentation with:
-
-```make
-make
-```
+Combined to data
+- for various systems
 
 ---
-class: middle, center, inverse
+# Theoretical framework
 
-# Content
-<hr width="100%" align="left" size="0.3" color="orange"></hr>
+.center[Dynamics of consumer-resource systems]
 
----
-# Sections
+$$
+\begin{align}
+\dfrac{dB_i}{dt} &= \textrm{production} - \textrm{predation losses} - \textrm{internal losses} \\
+\dfrac{dB_i}{dt} &= g_iB_i + \epsilon A_{ji}B_iB_j - A_{ik}B_iB_k - q_iB_i - D_iB_i^2
+\end{align}
+$$
 
-Slides are separeted by `---`:
+* B<sub>i</sub> biomass of species *i*
+* g<sub>i</sub> growth rate
+* ϵ conversion efficiency
+* A<sub>ji</sub> attack rate
+* q<sub>i</sub> metabolic rate
+* D<sub>i</sub> self-regulation
 
-.code70[
-```{markdown}
----
-# My slide title
-
-Content here
-
----
-```
-]
-
-Title sections, like the previous slide, needs to specify the following classes:
-
-.code70[
-```markdown
----
-class: middle, center, inverse
-
-# Title of my section
-<hr width="100%" align="left" size="0.3" color="orange"></hr>
+<br>
+.center[Explore some properties of the system]
 
 ---
-```
-]
+# A quick note on self-regulation
+.font80[An important but not well known parameter]
 
-.font80[
-You can use one of these classes in any slide if you want to:
-- Vertical center the content (`middle`)
-- Horizontal center the content (`center`)
-- Or inverse the background and text colours (`inverse`)
-]
+<br>
+.center[**Intraspecific density dependent regulation**
+<br>
+A population’s growth rate is negatively affected by its own population
+density]
+<br>
+Examples :
+- territoriality
+- infanticide
+- intra-guild predation
+- competition for light
+
+<br>
+.center[**Important to match stability levels observed in nature**]
 
 ---
-# Tables
+# Theoretical framework
 
-.pull-left[
-You can simply insert a markdown table:
+Synthetic parameters describing food chain properties
 
-.font70[
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-]]
+.center[![:scale 95%](images/theoretical_framework1.png)]
+
+κ denotes how much biomass is gained by consumers per unit biomass lost by resources
+
+.cite[Barbier & Loreau [2019]]
+
+---
+# Theoretical framework
+Synthetic parameters describing food chain properties
+
+.center[![:scale 95%](images/theoretical_framework1.png)]
+
+λ describes the feedback of a trophic level on itself through its predators
+
+.cite[Barbier & Loreau [2019]]
+
+---
+# Theoretical framework
+Temperature dependence
+
+.center[![:scale 95%](images/theoretical_framework2.png)]
+
+---
+# Theoretical framework
+Temperature dependence
+
+.center[![:scale 95%](images/theoretical_framework3.png)]
+
+---
+# Theoretical framework
+Temperature dependence of biological rates
+
+.pull-left[.center[![](images/BAfunction.png)]]
 
 .pull-right[
-Or you can use the `DT` R package for dynamic tables:
+<br><br>
 
-.font70[
-```{r}
-DT::datatable(head(cars))
-```
-]]
+$\huge b_i = b_{0_i}e^{-E_i/kT}$
 
----
-# Figures
+<br><br><br>
 
-Insert an image:
-
-```md
-![](images/model1.svg)
-```
-.center[
-  ![:scale 70%](images/model1.svg)
+* b<sub>0</sub>, k constants
+* T temperature
+* **E activation energy**
 ]
 
----
-# Figures
-
-Scale the size of an image:
-
-```md
-![:scale 60%](images/model1.svg)
-```
-.center[
-  ![:scale 40%](images/model1.svg)
-]
+<br><br>
+.center[The activation energy defines the rate's thermal sensitivity]
 
 ---
-# Figures
+# Theoretical framework
+Temperature dependence of the synthetic parameters
 
-Or simply code it:
+Synthetic parameters :
+$κ = \dfrac{ϵD_1}{D_2}$, $λ = \dfrac{ϵA_{21}}{D_1D_2}$
 
-```{r, echo=-1}
-par(mypar)
-plot(cars$speed, cars$dist)
-```
-
----
-# Figures
-
-Use the code chunck options to change the size of a plot :
-
-```{r echo=FALSE, class.output="r", comment=""}
-cat(paste(sep = "\n",
-  "\```{r, fig.width = 4, fig.height = 2.5}",
-  "plot(cars$speed, cars$dist)",
-  "```"
-))
-```
-
-```{r, echo=FALSE, fig.width = 4, fig.height = 2.5}
-par(mypar)
-plot(cars$speed, cars$dist)
-```
-
-.font90[
-  *You can check a full list of chunck options [here](https://yihui.org/knitr/options/)*
-]
-
----
-# Columns
-
-50/50 columns can be created with:
-
-.code90[
-```{markdown}
-.pull-left[
-  Content 1
-]
-.pull-right[
-  content 2
-]
-```
-
-.pull-left[
-For left larger columns:
-```{markdown}
+--
 .pull-left1[
-  Content 1
-]
-.pull-right1[
-  content 2
-]
-```
-]
-.pull-right[
-Or right larger columns:
-```{markdown}
-.pull-left2[
-  Content 1
-]
-.pull-right2[
-  content 2
-]
-```
-]
-]
+Their activation energies :
+<br><br>
+$E_κ = E_ϵ + E_{D_1} - E_{D_2}$
+<br><br>
+$E_\lambda =  E_ϵ + 2(E_A-E_{D_2}) + E_{D_2} - E_{D_1}$]
+
+.pull-right1[![](images/BAfunction_mismatch.png) <br>
+Mismatches between biological rates]
 
 ---
-# Text position
+# Database of activation energies
 
-Instead of using columns, you can define the content position with:
-
-
-.left[
-Left aligned
-```{markdown}
-.left[text here]
-```
-]
-
-.center[
-Center aligned
-```{markdown}
-.left[text here]
-```
-]
-
-.right[
-Right aligned
-```{markdown}
-.left[text here]
-```
-]
-
----
-# Text size
-
-And also text size:
-
-```{markdown}
-.fontX[
-  Content here
-]
-```
-
-Where `X` can be anything between `10` (.font10[very small]) and `200` (.font200[HUGE]) by an increent of `10`:
-
-.code70[
-```{r}
-print(seq(10, 200, 10))
-```
-]
-
----
-# Animation
-
-Using `--` between lines
-
---
-- you
-
---
-- can
-
---
-- animate
-
----
-# Math
-
-$\LaTeX$ math expressions can be writen between `$$`:
-
-```{markdown}
-$$
-  \bar{X}=\frac{1}{n}\sum_{i=1}^nX_i
-$$
-```
-
-
-$$
-  \bar{X}=\frac{1}{n}\sum_{i=1}^nX_i
-$$
-
-
----
-# Citation
-
-This macro is just to easily insert text on the bottom of the slide:
-
-.code70[
-```{markdown}
-.cite[Talluto et al. [2017](https://link) Nat. Ecol. Evol.]
-```
-]
-
-.center[![:scale 70%](images/Talluto1.png)]
-
-.cite[Talluto et al. [2017](https://www.nature.com/articles/s41559-017-0182) Nat. Ecol. Evol.]
-
----
-# Icons
-
-You can use both [Font awesome](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/) icons
+.center[![:scale 80%](images/data.png)]
 
 .pull-left[
-Font awesome icons (`faic`)
-
-```{markdown}
-![:faic](pagelines)
-```
-![:faic](pagelines) 
-]
-.pull-right[
-Academic icons (`acid`)
-
-```{markdown}
-![:acic](orcid)
-```
-![:acic](orcid)
-]
+* Various species (ectotherm)
+* Taxonomic groups
+* Habitat
+* Diet]
 
 <br>
-You can also ajust their size with the following argument:
-
-```{markdown}
-![:faic 2](pagelines)
-```
-![:faic 2](pagelines) 
+.cite[Dell et al [2011], Burnside et al [2014], Fussman et al [2014]]
 
 ---
-class: middle, center, inverse
+# Database of activation energies
 
-# 📦 `{xaringanExtra}`
-<hr width="100%" align="left" size="0.3" color="orange"></hr>
+.center[![:scale 80%](images/data.png)]
 
----
-# `{xaringanExtra}`
-
-This awesome R package provides enhancements for xaringan such as
-
-> - Add an overview of your presentation with tile view
-> - Make your slides editable
-> - Announce slide changes with a subtle tone
-> - Animate slide transitions with animate.css
-> - Add tabbed panels to slides with panelset
-> - Add a logo to all of your slides with logo
-> - Use the Tachyons CSS utility toolkit
-> - Add a live video feed of your webcam
-> - Fit your slides to fill the browser window
-> - Add extra CSS styles
-
-Take a look in their full documentation [here](https://pkg.garrickadenbuie.com/xaringanExtra/#/)
-
-I added some examples in the following slides...
+<br>
+No information available regarding the temperature dependence of self regulation hence
+.center[D ~ g, A, q]
 
 ---
-# `{xaringanExtra}` tile view
+# Effects of temperature on biomass structure and trophic control in consumer-resource interactions
 
-Press the letter "o" 😲
-
----
-# `{xaringanExtra}` Editable slides
-
-Just use the following class:
-
-```{markdown}
-.can-edit[ ... ]
-```
-
-What do you think?
-
-.can-edit[
-  -
-]
+<br><br>
+* Temperature dependence of λ and κ
+  - Aquatic vs terrestrial organisms
+  - Across taxonomic groups
+* Shift in λ and κ for herbivores-primary producers at the global scale
 
 ---
-# `{xaringanExtra}` Panelset
-
-.panelset[
-.panel[.panel-name[Code]
-```{r}
-x = rnorm(100, 10, 4)
-y = rnorm(100, 2, 1)
-```
-]
-
-.panel[.panel-name[Plot]
-```{r}
-plot(x, y)
-```
-]
-
-.panel[.panel-name[How?]
-```{markdown}
-.panelset[
-  
-  .panel[.panel-name[Code]
-    ...
-  ]
-
-  .panel[.panel-name[Plot]
-    ...
-  ]
-]
-```
-]
-]
-
+class: inverse, center, middle
+# Results
 
 ---
-class: middle, center, inverse
+# Thermal dependence of λ and κ
 
-# ![:faic](js) libraries
-<hr width="100%" align="left" size="0.3" color="orange"></hr>
-
+<br><br>
+.center[![:scale 60%](images/figure2.png)]
 
 ---
-# `Gifffer`
+# Thermal dependence of λ and κ across taxonomic groups
 
-> [Gifffer](https://github.com/krasimir/gifffer) prevents the autoplaying of the animated Gifs
+<br>
+.center[![](images/figure3.png)]
 
-Instead of adding a gif with the same syntax of an image (which plays automatically), you can use the `giffer` JS macro:
+---
+# Thermal dependence of λ and κ across taxonomic groups
 
-```{markdown}
-![:giffer 80%](images/RCP6_enrich.gif)
-```
+<br>
+.center[![](images/figure4.png)]
 
-Where `80%` is the width of the gif
+.pull-right1[**Mismatches between biological rates**]
+
+---
+# Herbivory at the global scale
+
+<br>
+.center[![:scale 60%](images/figure_herbivory.png)]
+
+---
+# To conclude
+
+- Mechanistic understanding
+  - Importance of 3 parameters and their mismatches in temperature dependence
+- Different effects of warming between aquatic and terrestrial communities
+  - more top-down control in aquatic systems
+  - top-heavier pyramids in aquatic and terrestrial systems
+- Variation between taxonomic groups
+  - could explain the observed variety of responses
+- Estimation for herbivory at the global scale coherent with other studies
+  - Predictions
+
+---
+# To conclude
+
+
+But...
+
+- Lack of data
+  - Self-regulation
+  - Biomass conversion efficiency
+  - Full thermal response
+- Consumer-resource interactions
+
+---
+# Upscaling to food webs at the global scale
 
 .center[
-  ![:giffer 80%](https://github.com/willvieira/talk_STM-BScUdeS/raw/master/images/RCP6_enrich.gif)
-]
+![:scale 90%](images/phd_3D3.svg)]
 
 ---
-# More ressources
+class: inverse, center, middle
+# Effects of temperature on fish food webs at the global scale
 
-You can check the `xaringan` presentation (which this template relies on):
+---
+# Effects of temperature on food webs
 
-https://slides.yihui.org/xaringan/#1
+<br><br>
+.center[![:scale 70%](images/temp_network.svg)]
 
-And also check all remark.js fonctionalities available in this template:
+- Warming
+- Temperature gradient
 
-https://remarkjs.com/#1
+Do they affect community structure and dynamics in a similar way ?
 
+---
+# Important gradients across latitudes
+
+.center[![:scale 90%](images/gradients.png)]
+
+---
+# Food webs properties
+
+<br><br>
+.center[![:scale 200%](images/measures_chap2.svg)
+
+Effects of the temperature gradient and warming : compare community and species dynamics]
+
+---
+class: inverse, middle, center
+
+# Method
+
+---
+# Fish communities at large scale
+
+<br>
+.center[![:scale 90%](images/map_lat_long.png)
+Trophic interactions]
+
+---
+# Data
+
+.center[![:scale 90%](images/schema_data.svg)]
+<br><br>
+.cite[Albouy et al [2019], Irigoien et al [2014]]
+
+---
+# Theoretical approach
+
+<br>
+.center[**Modelling communities to infer their structural and dynamical properties**]
+
+Lotka-Volterra system
+
+\begin{align}
+  \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon M_{ij} B_iB_j-\sum_k M_{ki} B_iB_k - D_iB_i^2
+\end{align}
+
+<br>
+
+- B biomass
+- M<sub>ij</sub> interaction matrix
+- g<sub>i</sub> net growth rate
+- D<sub>i</sub> self regulation
+- *ϵ* conversion efficiency
+
+.center[**How to parameterize the model?**]
+
+---
+# Temperature and body-mass dependence of biological rates
+
+.pull-left[![](images/biological_rates_temp.png)]
+
+.pull-right[
+
+$\large b_i = m_i^\beta b_0e^{-E/kT}$
+
+<br>
+
+* m body mass
+* *β* exponent
+* b<sub>0</sub>, k constants
+* T temperature
+* E activation energy]
+
+<br>
+
+.center[**Growth, metabolic and attack rate**]
+
+---
+# Theoretical approach
+
+<br>
+.center[**Modelling communities to infer their structural and dynamical properties**]
+
+Lotka-Volterra system
+
+\begin{align}
+  \frac{dB_i}{dt} = g_i + \sum_j \epsilon M_{ij} B_j-\sum_k M_{ki} B_k - D_iB_i
+\end{align}
+
+<br>
+
+- **B biomass**
+- M interaction matrix
+- g net growth rate
+- **D self regulation**
+- *ϵ* conversion efficiency
+
+.center[Self-regulation is completely unknown...<br>
+Biomass can be inferred from allometric relationship]
+
+---
+# Estimation of species biomass
+
+.center[Abundance law
+
+![:scale 60%](images/hatton.png)]
+.cite[Hatton et al [2019]]
+
+---
+# Method to estimate self-regulation
+
+<br>
+.center[From available parameters and]
+<br>
+\begin{align}
+  \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon M_{ij} B_iB_j-\sum_k M_{ki} B_iB_k - D_iB_i^2
+\end{align}
+
+<br><br>
+.center[
+- allow coexistence
+- biomass follows allometric laws]
+
+---
+# Method to estimate self-regulation
+
+<br>
+.center[A little trick to estimate self-regulation
+
+![:scale 60%](images/black_box.jpg)
+
+You'll have to believe me (or not) for today...]
+
+---
+# Measures of community dynamics
+
+<br>
+.center[
+![:scale 200%](images/measures_chap2_1.svg)
+
+**Median λ**]
+
+---
+# Measures of community dynamics
+
+<br>
+.center[
+![:scale 200%](images/measures_chap2_2.svg)
+
+**Sum species biomass**]
+
+---
+# Measures of species dynamics
+
+<br>
+.center[
+![:scale 200%](images/measures_chap2_3.svg)
+
+**Relative change in species biomass**]
+
+---
+# Measures of community dynamics
+
+<br>
+.center[
+![:scale 200%](images/measures_chap2_4.svg)
+
+**Variability :  temporal biomass variance in response to stochastic pertubations (community average)**]
+
+---
+# Measures of community dynamics
+
+<br>
+.center[
+![:scale 200%](images/measures_chap2_5.svg)
+
+**Collectivity :  importance of indirect interactions (collectivity = 1, a change in species abundance affect other species far in the network)**]
+
+---
+class: inverse, middle, center
+# Results
+
+---
+# Community properties at large scale
+
+.center[Trophic control
+![](images/map_lambda.png)]
+
+---
+# Community properties according to the number of species
+
+<br>
+.center[![](images/nbspecies.svg)
+
+Effect of the number of species on λ and collectivity]
+
+---
+# Residual properties according to temperature
+
+<br>
+.center[![](images/temp_control.svg)
+.font70[(while controlling for the number of species)]
+
+<br>
+The temperature gradient alone does not seem to strongly affect community properties (except collectivity)
+
+<br>
+**But what about warming ?**]
+
+---
+# Effect of warming on community properties
+
+.center[Relative change with warming
+
+![](images/heat_diff.svg)]
+
+<br>
+.center[Warming affects collectivity and variability but not other community properties
+
+Interactive effect of warming and the temperature gradient]
+
+---
+# Effect of warming on species biomass
+
+.center[If warming does not affect some properties of the community as a whole, does it affect single species in the community ?]
+
+--
+<br>
+.center[Relative change in species biomass with warming for each trophic level
+
+![:scale 70%](images/heat_hist.svg)]
+
+---
+# To conclude
+
+- Latitudinal variation mostly driven by number of species
+- λ decreases and collectivity increases with the number of species
+  - Latitudinal variation in trophic control
+- Temperature gradient and warming affects collectivity, warming affects variability, but not significantly other community properties
+
+<br><br>
+.center[**Warming seems to affect individual species more significantly than communities as an entity**
+
+Especially species from trophic levels 2 and 3]
+
+---
+# To conclude
+
+<br>
+Limitations :
+
+- Limited data available
+- No variation in activation energies (but same taxonomic group)
+- Model assumptions and parameters
+
+.center[The model is right but it might be wrong]
+
+---
+class: inverse, middle, center
+# General conclusion
+
+---
+# To conclude - First part
+
+.center[![:scale 80%](images/schema_recap2.png)]
+
+.center[**3 fundamental biological rates and their mismatches**]
+
+---
+# To conclude - First part
+
+.center[![:scale 80%](images/schema_recap3.png)]
+
+.center[**General trend : more top-down control in aquatic systems and top-heavier biomass distribution in terrestrial and aquatic ones**]
+
+---
+# To conclude - Second part
+
+.center[![:scale 70%](images/phd_3D_conclu.svg)
+
+Temperature effects seem to vary from one scale to another !]
+
+---
+# To conclude - Second part
+
+- Latitudinal gradient mostly driven by number of species
+- Community properties seem robust to warming
+- But individual species much less !
+  - Which could explain why strong effects are observed at lower scales
+  - Warming effect on λ for a pair of species $\neq$ λ at the community level
+
+<br>
+.center[**Theoretical exploration of the direct effect of warming to better understand mechanisms**]
+
+--
+
+Of course in nature ... things can be different !
+- Warming has interactive effects
+- Habitat loss
+- Fishing
+- Increase in human populations
+- Pollution
+- ...
 
 ---
 class: inverse
@@ -500,16 +950,20 @@ class: inverse
 .pull-left1[
 <br>
 
-# Key message here
+.font180[**So this is not an excuse to take the plane too often** ;)]
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 **Special thanks to**
 
-Nice people
+- You for listening
+- My supervisors Dominique and Michel
+- Matthieu, Jeff and Ben
+- Lab mates in Sherbrooke and Moulis
+- Will for the (beautiful right?) template
 ]
 
 .pull-right1[
 <br>
-![:scale 90%](images/logo.png)
+![:scale 200%](images/logo.png)
 ]
