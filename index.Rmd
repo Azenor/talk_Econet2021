@@ -43,16 +43,15 @@ class: middle, title-slide
 <div class="lab-logo"></div>
 <!-- <div class="uni-logo"></div> -->
 
-# Effects of temperature on species and their trophic interactions
+# Latitudinal variation and warming impacts in fish food web dynamics
 
 <hr width="65%" align="left" size="0.3" color="orange"></hr>
+## Econet 2021
 
-## A cross-scales perspective
-
-### Azenor Bideault, .small[PhD candidate <br> Dominique Gravel and Michel Loreau]
+### Azenor Bideault, Matthieu Barbier, Arnaud Sentis, <br> Michel Loreau & Dominique Gravel
 
 <br><br>
-[<i class="fa fa-github fa-lg" style="color:#e7e8e2"></i> Azenor/talk_seminar2UdeS](https://github.com/Azenor/talk_seminar2UdeS)
+[<i class="fa fa-github fa-lg" style="color:#e7e8e2"></i> Azenor/talk_Econet2021](https://github.com/Azenor/talk_Econet2021)
 
 [<i class="fa fa-twitter fa-lg" style="color:#e7e8e2"></i> @Azenor_Bideault](https://twitter.com/Azenor_Bideault)
 
@@ -75,13 +74,13 @@ class: middle, title-slide
 - ...
 
 ---
-# Communities vary across space and time
+# Food webs vary across space and time
 
 .pull-left[
 ![:scale 120%](images/network1.svg)]
 
 ---
-# Communities vary across space and time
+# Food webs vary across space and time
 
 .pull-left[
 ![:scale 100%](images/network2.svg)]
@@ -91,7 +90,7 @@ class: middle, title-slide
 ]
 
 ---
-# Communities vary across space and time
+# Food webs vary across space and time
 
 .pull-left[
 ![:scale 100%](images/network3.svg)]
@@ -102,7 +101,7 @@ class: middle, title-slide
 ]
 
 ---
-# Communities vary across space and time
+# Food webs vary across space and time
 
 .pull-left[
 ![:scale 120%](images/network4.svg)]
@@ -114,7 +113,7 @@ class: middle, title-slide
 ]
 
 ---
-# Communities vary across space and time
+# Food webs vary across space and time
 
 .pull-left[
 ![:scale 120%](images/network5.svg)]
@@ -128,7 +127,7 @@ class: middle, title-slide
 ]
 
 ---
-# Communities vary across space and time
+# Food webs vary across space and time
 
 .pull-left[
 ![:scale 120%](images/network6.svg)]
@@ -143,7 +142,7 @@ class: middle, title-slide
 ]
 
 ---
-# Communities vary across space and time
+# Food webs vary across space and time
 
 .pull-left[
 ![:scale 120%](images/network8.svg)]
@@ -156,28 +155,7 @@ class: middle, title-slide
 - Interaction strength
 - Stability]
 
---
-.center[How and why ?]
-
 ---
-# Food webs vary across space and time
-
-.pull-left[
-
-![:scale 120%](images/trophic_interactions.png)
-<br>
-.center[Trophic interactions]]
-
-.pull-right[
-- Identity of species
-- Number of species
-- Biomass
-- Interactions
-- Interaction strength
-- Stability]
-
----
-
 # Trophic interactions
 
 .center[Are at the core of ecological systems]
@@ -186,32 +164,13 @@ class: middle, title-slide
 
 .center[Trophic cascade : Sea otters indirectly enhance kelp abundance by consuming herbivorous sea urchins]
 
-.cite[Estes et al. [2011] Science]
+.cite[Estes et al. [2011]]
 
 ---
 class: middle, center, inverse
 
 # What determines food webs structure and dynamics ?
 <hr width="100%" align="left" size="0.3" color="orange"></hr>
-
----
-# Back to the x differences
-
-.center[What else is different ?]
-
-.pull-left[
-![:scale 95%](images/arctic.jpeg)
-]
-.pull-right[
-![](images/tropical_forest.jpg)
-]
-
---
-
-.center[
-Environmental drivers :
-- Temperature
-- Precipitation]
 
 ---
 # Temperature
@@ -241,7 +200,7 @@ From the individual to the community
 ![](images/temp_orga_level.png)]
 
 ---
-# Effects of temperature
+# Direct effect of temperature
 
 .center[
 On populations
@@ -249,36 +208,53 @@ On populations
 
 
 ---
-# Effects of temperature
+# Direct effect of temperature
 
 .center[
 On their interactions
 ![](images/biological_rates_temp2.svg)]
 
 ---
-# Effects of temperature
+# Effect of temperature
 
 .center[
-On the structure and dynamics of consumer-resource systems
-![](images/biological_rates_temp4.svg)]
-
+On the dynamics of food webs
+![](images/biological_rates_temp3.svg)]
 
 ---
-# Effects of temperature
+# Other variables
 
 .center[
-On food webs
+![](images/map_expl_variables.svg)
 
-![:scale 80%](images/temp_network.svg)
-- Structure
-- Dynamics
-- Stability]
+Disentangle the direct effects of temperature on food webs dynamics]
+
+---
+# Impacts on food webs dynamics
+
+Food webs properties
+
+<br>
+.center[![:scale 200%](images/measures_chap2.svg)
+
+Effects of the temperature gradient and warming : compare community and species dynamics]
+
+---
+# Effects of temperature on food webs
+
+<br><br>
+.center[![:scale 70%](images/temp_network.svg)]
+
+- Temperature gradient
+  - Direct effect of temperature
+  - Other variables : connectance, species richness, body mass, total biomass
+- Warming
 
 ---
 # Lack of consensus
 
 - Hard to disentangle the various effects of temperature
-- How do they propagate ?
+- How do they propagate from the populations to the community ?
 - Effect of the temperature gradient $\neq$ effect of warming?
 
 Most studies explore :
@@ -296,368 +272,6 @@ with different
 
 ---
 class: middle, center, inverse
-
-# How does temperature affect species and their interactions ?
-## A cross-scales perspective
-<hr width="100%" align="left" size="0.3" color="orange"></hr>
-
----
-# A cross-scales perspective
-
-.center[
-![:scale 90%](images/phd_3D.svg)]
-
----
-# A cross-scale perspective
-
-.center[
-![:scale 55%](images/phd_3D2.svg)]
-
-- Thermal mismatches in biological rates determine trophic
-control and biomass distribution under warming
-
----
-# A cross-scale perspective
-
-.center[
-![:scale 55%](images/phd_3D3.svg)]
-
-- Thermal mismatches in biological rates determine trophic
-control and biomass distribution under warming
-- Effects of temperature on fish food webs at the global scale
-
-.center[*Using theory*]
-
----
-# A cross-scale perspective
-
-.center[
-![:scale 55%](images/phd_3D4.svg)]
-
-- Thermal mismatches in biological rates determine trophic
-control and biomass distribution under warming
-- Effects of temperature on fish food webs at the global scale
-- Short-term thermal adaptation of growth rates in wild bacteria
-strains
-
-.center[*Using theory and experiments*]
-
----
-# A cross-scale perspective
-
-.center[
-![:scale 55%](images/phd_3D.svg)]
-
-- **Thermal mismatches in biological rates determine trophic
-control and biomass distribution under warming**
-- **Effects of temperature on fish food webs at the global scale**
-- Short-term thermal adaptation of growth rates in wild bacteria
-strains
-
-.center[*Theoretical approaches*]
-
----
-class: middle, center, inverse
-# Thermal mismatches in biological rates determine trophic control and biomass distribution under warming
-## A cross-ecosystem comparison
-
----
-# Food chain structural properties
-
-.center[
-Biomass distribution
-![:scale 80%](images/biomass_pyramids.png)]
-
----
-# Food chain structural properties
-
-.center[
-Biomass distribution
-![:scale 80%](images/biomass_pyramids2.png)]
-
----
-# Food chain dynamical features
-
-.center[
-Trophic control
-
-![:scale 80%](images/trophic_control.png)]
-
----
-# Food chain dynamical features
-
-.center[
-Trophic control
-
-![:scale 80%](images/trophic_control2.png)]
-
-
----
-# Temperature effects
-
-.center[
-**On food chain structure and dynamics**
-
-![:scale 90%](images/schema_temp_general.png)]
-
----
-class: middle, center, inverse
-# Method
-
----
-# Method
-
-.center[**How to (try to) answer big questions ?**
-
-One approach : using **small** models !]
-
-<br>
-
-Theoretical approach
-- simulate consumer-resource interactions
-- general overview (go beyond system particularities)
-- toward a synthetic understanding
-
-Combined to data
-- for various systems
-
----
-# Theoretical framework
-
-.center[Dynamics of consumer-resource systems]
-
-$$
-\begin{align}
-\dfrac{dB_i}{dt} &= \textrm{production} - \textrm{predation losses} - \textrm{internal losses} \\
-\dfrac{dB_i}{dt} &= g_iB_i + \epsilon A_{ji}B_iB_j - A_{ik}B_iB_k - q_iB_i - D_iB_i^2
-\end{align}
-$$
-
-* B<sub>i</sub> biomass of species *i*
-* g<sub>i</sub> growth rate
-* ϵ conversion efficiency
-* A<sub>ji</sub> attack rate
-* q<sub>i</sub> metabolic rate
-* D<sub>i</sub> self-regulation
-
-<br>
-.center[Explore some properties of the system]
-
----
-# A quick note on self-regulation
-.font80[An important but not well known parameter]
-
-<br>
-.center[**Intraspecific density dependent regulation**
-<br>
-A population’s growth rate is negatively affected by its own population
-density]
-<br>
-Examples :
-- territoriality
-- infanticide
-- intra-guild predation
-- competition for light
-
-<br>
-.center[**Important to match stability levels observed in nature**]
-
----
-# Theoretical framework
-
-Synthetic parameters describing food chain properties
-
-.center[![:scale 95%](images/theoretical_framework1.png)]
-
-κ denotes how much biomass is gained by consumers per unit biomass lost by resources
-
-.cite[Barbier & Loreau [2019]]
-
----
-# Theoretical framework
-Synthetic parameters describing food chain properties
-
-.center[![:scale 95%](images/theoretical_framework1.png)]
-
-λ describes the feedback of a trophic level on itself through its predators
-
-.cite[Barbier & Loreau [2019]]
-
----
-# Theoretical framework
-Temperature dependence
-
-.center[![:scale 95%](images/theoretical_framework2.png)]
-
----
-# Theoretical framework
-Temperature dependence
-
-.center[![:scale 95%](images/theoretical_framework3.png)]
-
----
-# Theoretical framework
-Temperature dependence of biological rates
-
-.pull-left[.center[![](images/BAfunction.png)]]
-
-.pull-right[
-<br><br>
-
-$\huge b_i = b_{0_i}e^{-E_i/kT}$
-
-<br><br><br>
-
-* b<sub>0</sub>, k constants
-* T temperature
-* **E activation energy**
-]
-
-<br><br>
-.center[The activation energy defines the rate's thermal sensitivity]
-
----
-# Theoretical framework
-Temperature dependence of the synthetic parameters
-
-Synthetic parameters :
-$κ = \dfrac{ϵD_1}{D_2}$, $λ = \dfrac{ϵA_{21}}{D_1D_2}$
-
---
-.pull-left1[
-Their activation energies :
-<br><br>
-$E_κ = E_ϵ + E_{D_1} - E_{D_2}$
-<br><br>
-$E_\lambda =  E_ϵ + 2(E_A-E_{D_2}) + E_{D_2} - E_{D_1}$]
-
-.pull-right1[![](images/BAfunction_mismatch.png) <br>
-Mismatches between biological rates]
-
----
-# Database of activation energies
-
-.center[![:scale 80%](images/data.png)]
-
-.pull-left[
-* Various species (ectotherm)
-* Taxonomic groups
-* Habitat
-* Diet]
-
-<br>
-.cite[Dell et al [2011], Burnside et al [2014], Fussman et al [2014]]
-
----
-# Database of activation energies
-
-.center[![:scale 80%](images/data.png)]
-
-<br>
-No information available regarding the temperature dependence of self regulation hence
-.center[D ~ g, A, q]
-
----
-# Effects of temperature on biomass structure and trophic control in consumer-resource interactions
-
-<br><br>
-* Temperature dependence of λ and κ
-  - Aquatic vs terrestrial organisms
-  - Across taxonomic groups
-* Shift in λ and κ for herbivores-primary producers at the global scale
-
----
-class: inverse, center, middle
-# Results
-
----
-# Thermal dependence of λ and κ
-
-<br><br>
-.center[![:scale 60%](images/figure2.png)]
-
----
-# Thermal dependence of λ and κ across taxonomic groups
-
-<br>
-.center[![](images/figure3.png)]
-
----
-# Thermal dependence of λ and κ across taxonomic groups
-
-<br>
-.center[![](images/figure4.png)]
-
-.pull-right1[**Mismatches between biological rates**]
-
----
-# Herbivory at the global scale
-
-<br>
-.center[![:scale 60%](images/figure_herbivory.png)]
-
----
-# To conclude
-
-- Mechanistic understanding
-  - Importance of 3 parameters and their mismatches in temperature dependence
-- Different effects of warming between aquatic and terrestrial communities
-  - more top-down control in aquatic systems
-  - top-heavier pyramids in aquatic and terrestrial systems
-- Variation between taxonomic groups
-  - could explain the observed variety of responses
-- Estimation for herbivory at the global scale coherent with other studies
-  - Predictions
-
----
-# To conclude
-
-
-But...
-
-- Lack of data
-  - Self-regulation
-  - Biomass conversion efficiency
-  - Full thermal response
-- Consumer-resource interactions
-
----
-# Upscaling to food webs at the global scale
-
-.center[
-![:scale 90%](images/phd_3D3.svg)]
-
----
-class: inverse, center, middle
-# Effects of temperature on fish food webs at the global scale
-
----
-# Effects of temperature on food webs
-
-<br><br>
-.center[![:scale 70%](images/temp_network.svg)]
-
-- Warming
-- Temperature gradient
-
-Do they affect community structure and dynamics in a similar way ?
-
----
-# Important gradients across latitudes
-
-.center[![:scale 90%](images/gradients.png)]
-
----
-# Food webs properties
-
-<br><br>
-.center[![:scale 200%](images/measures_chap2.svg)
-
-Effects of the temperature gradient and warming : compare community and species dynamics]
-
----
-class: inverse, middle, center
-
 # Method
 
 ---
@@ -683,7 +297,8 @@ Trophic interactions]
 Lotka-Volterra system
 
 \begin{align}
-  \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon M_{ij} B_iB_j-\sum_k M_{ki} B_iB_k - D_iB_i^2
+  \dfrac{dB_i}{dt} &= \textrm{production} - \textrm{predation losses} - \textrm{internal losses} \\
+  \frac{dB_i}{dt} &= g_iB_i + \sum_j \epsilon M_{ij} B_iB_j-\sum_k M_{ki} B_iB_k - D_iB_i^2
 \end{align}
 
 <br>
@@ -694,12 +309,30 @@ Lotka-Volterra system
 - D<sub>i</sub> self regulation
 - *ϵ* conversion efficiency
 
-.center[**How to parameterize the model?**]
+---
+# A quick note on self-regulation
+.font80[An important but not well known parameter]
+
+<br>
+.center[**Intraspecific density dependent regulation**
+<br>
+A population’s growth rate is negatively affected by its own population
+density]
+<br>
+Examples :
+- territoriality
+- infanticide
+- intra-guild predation
+- competition for light
+
+<br>
+.center[**Important to match stability levels observed in nature**]
 
 ---
 # Temperature and body-mass dependence of biological rates
 
-.pull-left[![](images/biological_rates_temp.png)]
+.pull-left[
+<br>![](images/biological_rates_temp2.svg)]
 
 .pull-right[
 
@@ -715,7 +348,9 @@ $\large b_i = m_i^\beta b_0e^{-E/kT}$
 
 <br>
 
-.center[**Growth, metabolic and attack rate**]
+.center[**Growth and attack rate**]
+.cite[Savage et al [2004], Li et al [2018]]
+
 
 ---
 # Theoretical approach
@@ -737,14 +372,14 @@ Lotka-Volterra system
 - **D self regulation**
 - *ϵ* conversion efficiency
 
-.center[Self-regulation is completely unknown...<br>
-Biomass can be inferred from allometric relationship]
-
 ---
 # Estimation of species biomass
 
-.center[Abundance law
+.center[Self-regulation is completely unknown...<br>
+Biomass can be inferred from allometric relationship]
 
+--
+.center[
 ![:scale 60%](images/hatton.png)]
 .cite[Hatton et al [2019]]
 
@@ -752,35 +387,44 @@ Biomass can be inferred from allometric relationship]
 # Method to estimate self-regulation
 
 <br>
-.center[From available parameters and]
-<br>
 \begin{align}
   \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon M_{ij} B_iB_j-\sum_k M_{ki} B_iB_k - D_iB_i^2
 \end{align}
 
 <br><br>
 .center[
+- using estimations of biological rates and biomass
 - allow coexistence
-- biomass follows allometric laws]
+- equilibrium]
+
+<br><br>
+
+.center[**Simulate the dynamics of communities and measure some dynamical properties**]
 
 ---
-# Method to estimate self-regulation
-
-<br>
-.center[A little trick to estimate self-regulation
-
-![:scale 60%](images/black_box.jpg)
-
-You'll have to believe me (or not) for today...]
-
----
-# Measures of community dynamics
+# Measures of community dynamical properties
 
 <br>
 .center[
 ![:scale 200%](images/measures_chap2_1.svg)
 
-**Median λ**]
+**Trophic control**]
+
+---
+# Food chain dynamical features
+
+.center[
+Trophic control
+
+![:scale 60%](images/trophic_control.svg)]
+
+---
+# Food chain dynamical features
+
+.center[
+Trophic control
+
+![:scale 60%](images/theoretical_framework1.png)]
 
 ---
 # Measures of community dynamics
@@ -810,6 +454,21 @@ You'll have to believe me (or not) for today...]
 **Variability :  temporal biomass variance in response to stochastic pertubations (community average)**]
 
 ---
+# Variability
+
+.center[
+<br>
+\begin{align}
+  \mathcal{V} = tr(C)
+\end{align}
+
+where $C$ is the covariance matrix (solution of the Lyapunov equation $AC+CA^T = \mathbb I$ with $A$ the Jacobian matrix for the dynamics at equilibrium)
+
+**It defines how species abundances in the community respond on average to randomly adding or removing individuals**]
+
+.cite[Arnoldi et al [2019]]
+
+---
 # Measures of community dynamics
 
 <br>
@@ -819,71 +478,114 @@ You'll have to believe me (or not) for today...]
 **Collectivity :  importance of indirect interactions (collectivity = 1, a change in species abundance affect other species far in the network)**]
 
 ---
+# Collectivity
+
+<br>
+.center[
+\begin{align}
+  \phi = \rho(M_{ij}) = \max_i|\lambda_i(M)|
+\end{align}
+
+the spectral radius of the interaction matrix normalized by its diagonal whose elements are $D_i$, $M_{ij} = A_{ij}/D_i$, and $\lambda_i(M)$ is the ith eigenvalue of matrix $M$.
+
+**Quantifies the number and length of indirect interactions relative to direct interactions (collectivity = 1, a change in species abundance affect other species far in the network)**]
+
+---
+# Measures of community dynamics along the latitudinal gradient
+
+**Identify the drivers of latitudinal variation**
+
+- Measure metrics for each community
+- Compute the relative contributions of the variables
+  - Temperature
+  - Connectance
+  - Species richness
+  - Body mass
+  - Total biomass
+
+---
+# Simulate warming
+
+.center[![:scale 80%](images/temp_network2.svg)
+
+- Direct effect of warming on species biological rates
+- Compute the relative change in community metrics
+
+\begin{align}
+  \Delta(x) = \textrm{log}_{10}(x_{warm}) - \textrm{log}_{10}(x) \approx (x_{warm} - x)/x
+\end{align}
+]
+
+---
 class: inverse, middle, center
 # Results
 
 ---
 # Community properties at large scale
 
-.center[Trophic control
-![](images/map_lambda.png)]
+.center[![](images/map_metrics.png)]
 
 ---
 # Community properties according to the number of species
 
-<br>
-.center[![](images/nbspecies.svg)
+.center[![:scale 70%](images/variables_latitude21.svg)
 
-Effect of the number of species on λ and collectivity]
+**Less top down control, higher variability and collectivity at low latitudes**]
 
 ---
-# Residual properties according to temperature
+# Community properties according to the number of species
 
-<br>
-.center[![](images/temp_control.svg)
-.font70[(while controlling for the number of species)]
+.center[![:scale 70%](images/variables_latitude22.svg)]
 
-<br>
-The temperature gradient alone does not seem to strongly affect community properties (except collectivity)
+---
+# Community properties according to the number of species
 
-<br>
-**But what about warming ?**]
+.center[![:scale 70%](images/variables_latitude23_lambda.svg)]
+
+---
+# Community properties according to the number of species
+
+.center[![:scale 70%](images/variables_latitude23_var.svg)]
+
+---
+# Community properties according to the number of species
+
+.center[![:scale 70%](images/variables_latitude23_coll.svg)]
+
+---
+# Community properties according to the number of species
+
+.center[![:scale 70%](images/variables_latitude23_summ.svg)]
 
 ---
 # Effect of warming on community properties
 
-.center[Relative change with warming
-
-![](images/heat_diff.svg)]
-
 <br>
-.center[Warming affects collectivity and variability but not other community properties
-
-Interactive effect of warming and the temperature gradient]
+.center[![](images/figure_metric_change_noTSR.svg)]
 
 ---
-# Effect of warming on species biomass
+# Effect of warming on biomass
 
-.center[If warming does not affect some properties of the community as a whole, does it affect single species in the community ?]
-
---
 <br>
-.center[Relative change in species biomass with warming for each trophic level
-
-![:scale 70%](images/heat_hist.svg)]
+.center[![:scale 70%](images/figure_biomass_change_noTSR.png)]
 
 ---
 # To conclude
 
-- Latitudinal variation mostly driven by number of species
-- λ decreases and collectivity increases with the number of species
-  - Latitudinal variation in trophic control
-- Temperature gradient and warming affects collectivity, warming affects variability, but not significantly other community properties
+.center[**There is latitudinal variation in community dynamics**]
+
+- Trophic control decreases with the number of species and the connectance and increases with body mass
+- Variability decreases with body mass and temperature
+- Collectivity increases with temperature and species richness
+
+---
+# To conclude
 
 <br><br>
-.center[**Warming seems to affect individual species more significantly than communities as an entity**
+.center[**Warming seems to affect individual species more significantly than communities as an entity**]
 
-Especially species from trophic levels 2 and 3]
+- Increase in top-down control and collectivity and decrease in variability
+- Variation in species biomass, especially species from trophic levels 2 and 3]
 
 ---
 # To conclude
@@ -895,54 +597,7 @@ Limitations :
 - No variation in activation energies (but same taxonomic group)
 - Model assumptions and parameters
 
-.center[The model is right but it might be wrong]
-
----
-class: inverse, middle, center
-# General conclusion
-
----
-# To conclude - First part
-
-.center[![:scale 80%](images/schema_recap2.png)]
-
-.center[**3 fundamental biological rates and their mismatches**]
-
----
-# To conclude - First part
-
-.center[![:scale 80%](images/schema_recap3.png)]
-
-.center[**General trend : more top-down control in aquatic systems and top-heavier biomass distribution in terrestrial and aquatic ones**]
-
----
-# To conclude - Second part
-
-.center[![:scale 70%](images/phd_3D_conclu.svg)
-
-Temperature effects seem to vary from one scale to another !]
-
----
-# To conclude - Second part
-
-- Latitudinal gradient mostly driven by number of species
-- Community properties seem robust to warming
-- But individual species much less !
-  - Which could explain why strong effects are observed at lower scales
-  - Warming effect on λ for a pair of species $\neq$ λ at the community level
-
-<br>
-.center[**Theoretical exploration of the direct effect of warming to better understand mechanisms**]
-
---
-
-Of course in nature ... things can be different !
-- Warming has interactive effects
-- Habitat loss
-- Fishing
-- Increase in human populations
-- Pollution
-- ...
+.center[Better picture of the drivers of latitudinal variation in community dynamics, which is important to understand the effects of climate change]
 
 ---
 class: inverse
@@ -950,7 +605,7 @@ class: inverse
 .pull-left1[
 <br>
 
-.font180[**So this is not an excuse to take the plane too often** ;)]
+.font180[blabla]
 
 <br><br><br><br><br>
 
@@ -960,7 +615,7 @@ class: inverse
 - My supervisors Dominique and Michel
 - Matthieu, Jeff and Ben
 - Lab mates in Sherbrooke and Moulis
-- Will for the (beautiful right?) template
+- Will for the nice template
 ]
 
 .pull-right1[
