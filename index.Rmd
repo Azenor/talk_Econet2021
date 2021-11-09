@@ -93,24 +93,6 @@ class: middle, title-slide
 - Trigger extinctions]
 
 ---
-# No synthetic understanding yet
-
-Most studies explore :
-- One particular ecological system
-- Food chains (vs food webs)
-
-with different
-- experimental design
-- study system
-- theoretical framework
-- model assumptions
-
-<br>
-.center[**Hard to disentangle the various effects of temperature**
-
-**How do they propagate from the populations to the community?**]
-
----
 # Direct effect of temperature
 
 <br>
@@ -142,6 +124,25 @@ On the dynamics of food webs
 <br>
 
 ![](images/biological_rates_temp3.svg)]
+
+---
+# No synthetic understanding yet
+
+Most studies explore :
+- One particular ecological system
+- Food chains (vs food webs)
+
+with different
+- experimental design
+- study system
+- theoretical framework
+- model assumptions
+
+<br>
+.center[**Hard to disentangle the various effects of temperature**
+
+**How do they propagate from the populations to the community?**]
+
 
 ---
 # Food webs dynamical properties
