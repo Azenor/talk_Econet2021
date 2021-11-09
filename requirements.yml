@@ -6,5 +6,4 @@ r_packages:
   - DT
   - pagedown
 r_github_packages:
-  - hadley/emo
   - gadenbuie/xaringanExtra
