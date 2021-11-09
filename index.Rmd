@@ -192,25 +192,6 @@ Lotka-Volterra system
 - *ϵ* conversion efficiency
 
 ---
-# A quick note on self-regulation
-.font80[An important but not well known parameter]
-
-<br>
-.center[**Intraspecific density dependent regulation**
-<br>
-A population’s growth rate is negatively affected by its own population
-density]
-<br>
-Examples :
-- territoriality
-- infanticide
-- intra-guild predation
-- competition for light
-
-<br>
-.center[**Important to match stability levels observed in nature**]
-
----
 # Temperature and body-mass dependence of biological rates
 
 .pull-left[
@@ -253,6 +234,25 @@ Lotka-Volterra system
 - g net growth rate
 - **D self regulation**
 - *ϵ* conversion efficiency
+
+---
+# Self-regulation
+.font80[An important but not well known parameter]
+
+<br>
+.center[**Intraspecific density dependent regulation**
+<br>
+A population’s growth rate is negatively affected by its own population
+density]
+<br>
+Examples :
+- territoriality
+- infanticide
+- intra-guild predation
+- competition for light
+
+<br>
+.center[**Important to match stability levels observed in nature**]
 
 ---
 # Estimation of species biomass
@@ -381,14 +381,22 @@ class: inverse, middle, center
 <br><br>
 .center[**Warming affects individual species more significantly than communities as an entity**]
 
-- Increase in top-down control and collectivity and decrease in variability
-- Variation in species biomass, especially species from trophic levels 2 and 3
+- Moderate increase in top-down control and collectivity and decrease in variability
+- Stronger variation in species biomass, especially species from trophic levels 2 and 3
+
+<br><br>
+
+.center[Focus on direct effect of temperature on biological rates and interactions]
 
 ---
-# Other variables
+# Entangled effects of temperature
 
-.center[
-![](images/map_expl_variables.svg)]
+.center[Apply the framework to identify latitudinal variation in trophic control, variability and collectivity
+
+![:scale 70%](images/map_expl_variables.svg)
+
+Other variables drive variation in community dynamics <br>
+Indirect effects of warming]
 
 ---
 class: inverse
