@@ -9,22 +9,13 @@
     <link href="assets/animate.css-3.7.2/animate.xaringan.css" rel="stylesheet" />
     <link href="assets/tachyons-4.12.0/tachyons.min.css" rel="stylesheet" />
     <link href="assets/xaringanExtra-extra-styles-0.2.6/xaringanExtra-extra-styles.css" rel="stylesheet" />
-    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x269e35756a9414a9b0c19135b35d958","expires":1}</script>
+    <script type="application/json" id="xaringanExtra-editable-docid">{"id":"x3024fc4d9b242b08322b81d06696625","expires":1}</script>
     <script src="assets/himalaya-1.1.0/himalaya.js"></script>
     <script src="assets/js-cookie-3.0.0/js.cookie.js"></script>
     <link href="assets/editable-0.2.6/editable.css" rel="stylesheet" />
     <script src="assets/editable-0.2.6/editable.js"></script>
     <link href="assets/panelset-0.2.6/panelset.css" rel="stylesheet" />
     <script src="assets/panelset-0.2.6/panelset.js"></script>
-    <script src="assets/htmlwidgets-1.5.3/htmlwidgets.js"></script>
-    <script src="assets/jquery-3.5.1/jquery.min.js"></script>
-    <link href="assets/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-    <script src="assets/datatables-binding-0.18/datatables.js"></script>
-    <link href="assets/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
-    <link href="assets/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
-    <script src="assets/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
-    <link href="assets/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
-    <script src="assets/crosstalk-1.1.1/js/crosstalk.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/v4-shims.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
@@ -43,481 +34,351 @@ class: middle, title-slide
 &lt;div class="lab-logo"&gt;&lt;/div&gt;
 &lt;!-- &lt;div class="uni-logo"&gt;&lt;/div&gt; --&gt;
 
-# Title of my talk template
+# Warming impacts in fish food web dynamics
 
 &lt;hr width="65%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
+## Econet 2021
 
-## My talk subtitle
+### Azenor Bideault, Matthieu Barbier, Arnaud Sentis, &lt;br&gt; Michel Loreau &amp; Dominique Gravel
 
-### Willian Vieira, .small[PhD candidate &lt;br&gt; + Collaborators]
+&lt;br&gt;&lt;br&gt;
+[&lt;i class="fa fa-github fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; Azenor/talk_Econet2021](https://github.com/Azenor/talk_Econet2021)
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
-[&lt;i class="fa fa-github fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; WillVieira/talkTemplate](https://github.com/willvieira/talkTemplate)
+[&lt;i class="fa fa-twitter fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; @Azenor_Bideault](https://twitter.com/Azenor_Bideault)
 
-[&lt;i class="fa fa-twitter fa-lg" style="color:#e7e8e2"&gt;&lt;/i&gt; @WillVieira90](https://twitter.com/willvieira90)
+&lt;!-- ---
+# Food webs are not static objects
 
----
+.pull-left[
+![:scale 120%](images/network1.svg)]
 
-# Introduction
-
-- How to setup
-- Content
-- `xaringanExtra` extensions
-- JS libraries
-
----
-class: middle, center, inverse
-
-# How to use it?
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
+.pull-right[
+- Identity of species
+- Number of species
+- Biomass
+- Interactions
+- Interaction strength
+- Stability] --&gt;
 
 ---
-# Workflow
+# Trophic interactions
 
-It is recomended to install all (R packages 📦) dependencies:
+.center[Are at the core of ecological systems]
 
-```make
-make install
-```
-.font90[If you use other R packages for your presentation, add them to the `requeriments.yml` file]
+![](images/otter.png)
+
+.center[Trophic cascade : Sea otters indirectly enhance kelp abundance by consuming herbivorous sea urchins]
+
+.cite[Estes et al. [2011]]
+
+---
+# Temperature
+.center[Climate change
+
+![:scale 35%](images/global_warming.jpg)
+
+**What are the effects of temperature ?**
+
+- Alter trophic control
+- Decrease stability
+- Trigger extinctions]
+
+---
+# No synthetic understanding yet
+
+Most studies explore :
+- One particular ecological system
+- Food chains (vs food webs)
+
+with different
+- experimental design
+- study system
+- theoretical framework
+- model assumptions
+
+&lt;br&gt;
+.center[**Hard to disentangle the various effects of temperature**
+
+**How do they propagate from the populations to the community?**]
+
+---
+# Direct effect of temperature
 
 &lt;br&gt;
 
-Once dependencies are solved, you can server your presentation on local to be automatically updated while editing:
-
-```make
-make server
-```
-
-Finally, publish your final `html` presentation with:
-
-```make
-make
-```
-
----
-class: middle, center, inverse
-
-# Content
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
-
----
-# Sections
-
-Slides are separeted by `---`:
-
-.code70[
-
-```markdown
----
-# My slide title
-
-Content here
-
----
-```
-]
-
-Title sections, like the previous slide, needs to specify the following classes:
-
-.code70[
-```markdown
----
-class: middle, center, inverse
-
-# Title of my section
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
-
----
-```
-]
-
-.font80[
-You can use one of these classes in any slide if you want to:
-- Vertical center the content (`middle`)
-- Horizontal center the content (`center`)
-- Or inverse the background and text colours (`inverse`)
-]
-
----
-# Tables
-
-.pull-left[
-You can simply insert a markdown table:
-
-.font70[
-| Tables   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
-]]
-
-.pull-right[
-Or you can use the `DT` R package for dynamic tables:
-
-.font70[
-
-```r
-DT::datatable(head(cars))
-```
-
-<div id="htmlwidget-ce7a017f43b193a65d57" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ce7a017f43b193a65d57">{"x":{"filter":"none","data":[["1","2","3","4","5","6"],[4,4,7,7,8,9],[2,10,4,22,16,10]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>speed<\/th>\n      <th>dist<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-]]
-
----
-# Figures
-
-Insert an image:
-
-```md
-![](images/model1.svg)
-```
 .center[
-  ![:scale 70%](images/model1.svg)
-]
+On populations
+&lt;br&gt;
+
+![](images/biological_rates_temp1.svg)]
 
 ---
-# Figures
-
-Scale the size of an image:
-
-```md
-![:scale 60%](images/model1.svg)
-```
-.center[
-  ![:scale 40%](images/model1.svg)
-]
-
----
-# Figures
-
-Or simply code it:
-
-
-```r
-plot(cars$speed, cars$dist)
-```
-
-&lt;img src="index_files/figure-html/unnamed-chunk-3-1.png" width="504" style="display: block; margin: auto;" /&gt;
-
----
-# Figures
-
-Use the code chunck options to change the size of a plot :
-
-
-````
-```{r, fig.width = 4, fig.height = 2.5}
-plot(cars$speed, cars$dist)
-```
-````
-
-&lt;img src="index_files/figure-html/unnamed-chunk-5-1.png" width="288" style="display: block; margin: auto;" /&gt;
-
-.font90[
-  *You can check a full list of chunck options [here](https://yihui.org/knitr/options/)*
-]
-
----
-# Columns
-
-50/50 columns can be created with:
-
-.code90[
-
-```markdown
-.pull-left[
-  Content 1
-]
-.pull-right[
-  content 2
-]
-```
-
-.pull-left[
-For left larger columns:
-
-```markdown
-.pull-left1[
-  Content 1
-]
-.pull-right1[
-  content 2
-]
-```
-]
-.pull-right[
-Or right larger columns:
-
-```markdown
-.pull-left2[
-  Content 1
-]
-.pull-right2[
-  content 2
-]
-```
-]
-]
-
----
-# Text position
-
-Instead of using columns, you can define the content position with:
-
-
-.left[
-Left aligned
-
-```markdown
-.left[text here]
-```
-]
-
-.center[
-Center aligned
-
-```markdown
-.left[text here]
-```
-]
-
-.right[
-Right aligned
-
-```markdown
-.left[text here]
-```
-]
-
----
-# Text size
-
-And also text size:
-
-
-```markdown
-.fontX[
-  Content here
-]
-```
-
-Where `X` can be anything between `10` (.font10[very small]) and `200` (.font200[HUGE]) by an increent of `10`:
-
-.code70[
-
-```r
-print(seq(10, 200, 10))
-#  [1]  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180 190
-# [20] 200
-```
-]
-
----
-# Animation
-
-Using `--` between lines
-
---
-- you
-
---
-- can
-
---
-- animate
-
----
-# Math
-
-`\(\LaTeX\)` math expressions can be writen between `$$`:
-
-
-```markdown
-$$
-  \bar{X}=\frac{1}{n}\sum_{i=1}^nX_i
-$$
-```
-
-
-$$
-  \bar{X}=\frac{1}{n}\sum_{i=1}^nX_i
-$$
-
-
----
-# Citation
-
-This macro is just to easily insert text on the bottom of the slide:
-
-.code70[
-
-```markdown
-.cite[Talluto et al. [2017](https://link) Nat. Ecol. Evol.]
-```
-]
-
-.center[![:scale 70%](images/Talluto1.png)]
-
-.cite[Talluto et al. [2017](https://www.nature.com/articles/s41559-017-0182) Nat. Ecol. Evol.]
-
----
-# Icons
-
-You can use both [Font awesome](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/) icons
-
-.pull-left[
-Font awesome icons (`faic`)
-
-
-```markdown
-![:faic](pagelines)
-```
-![:faic](pagelines) 
-]
-.pull-right[
-Academic icons (`acid`)
-
-
-```markdown
-![:acic](orcid)
-```
-![:acic](orcid)
-]
+# Direct effect of temperature
 
 &lt;br&gt;
-You can also ajust their size with the following argument:
-
-
-```markdown
-![:faic 2](pagelines)
-```
-![:faic 2](pagelines) 
-
----
-class: middle, center, inverse
-
-# 📦 `{xaringanExtra}`
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
-
----
-# `{xaringanExtra}`
-
-This awesome R package provides enhancements for xaringan such as
-
-&gt; - Add an overview of your presentation with tile view
-&gt; - Make your slides editable
-&gt; - Announce slide changes with a subtle tone
-&gt; - Animate slide transitions with animate.css
-&gt; - Add tabbed panels to slides with panelset
-&gt; - Add a logo to all of your slides with logo
-&gt; - Use the Tachyons CSS utility toolkit
-&gt; - Add a live video feed of your webcam
-&gt; - Fit your slides to fill the browser window
-&gt; - Add extra CSS styles
-
-Take a look in their full documentation [here](https://pkg.garrickadenbuie.com/xaringanExtra/#/)
-
-I added some examples in the following slides...
-
----
-# `{xaringanExtra}` tile view
-
-Press the letter "o" 😲
-
----
-# `{xaringanExtra}` Editable slides
-
-Just use the following class:
-
-
-```markdown
-.can-edit[ ... ]
-```
-
-What do you think?
-
-.can-edit[
-  -
-]
-
----
-# `{xaringanExtra}` Panelset
-
-.panelset[
-.panel[.panel-name[Code]
-
-```r
-x = rnorm(100, 10, 4)
-y = rnorm(100, 2, 1)
-```
-]
-
-.panel[.panel-name[Plot]
-
-```r
-plot(x, y)
-```
-
-&lt;img src="index_files/figure-html/unnamed-chunk-21-1.png" width="504" style="display: block; margin: auto;" /&gt;
-]
-
-.panel[.panel-name[How?]
-
-```markdown
-.panelset[
-  
-  .panel[.panel-name[Code]
-    ...
-  ]
-
-  .panel[.panel-name[Plot]
-    ...
-  ]
-]
-```
-]
-]
-
-
----
-class: middle, center, inverse
-
-# ![:faic](js) libraries
-&lt;hr width="100%" align="left" size="0.3" color="orange"&gt;&lt;/hr&gt;
-
-
----
-# `Gifffer`
-
-&gt; [Gifffer](https://github.com/krasimir/gifffer) prevents the autoplaying of the animated Gifs
-
-Instead of adding a gif with the same syntax of an image (which plays automatically), you can use the `giffer` JS macro:
-
-
-```markdown
-![:giffer 80%](images/RCP6_enrich.gif)
-```
-
-Where `80%` is the width of the gif
 
 .center[
-  ![:giffer 80%](https://github.com/willvieira/talk_STM-BScUdeS/raw/master/images/RCP6_enrich.gif)
+On their interactions
+&lt;br&gt;
+
+![](images/biological_rates_temp2.svg)]
+
+---
+# Effect of temperature
+
+&lt;br&gt;
+
+.center[
+On the dynamics of food webs
+&lt;br&gt;
+
+![](images/biological_rates_temp3.svg)]
+
+---
+# Food webs dynamical properties
+
+&lt;br&gt;&lt;br&gt;
+
+.center[![:scale 200%](images/measures_chap2.svg)
+
+Effects of warming : compare changes in the dynamics at the community and species levels]
+
+---
+class: middle, center, inverse
+# Method
+
+---
+# Fish food webs at large scale
+
+&lt;br&gt;
+.center[![:scale 90%](images/map_lat_long.png)]
+
+---
+# Data
+
+.center[![:scale 90%](images/schema_data.svg)]
+&lt;br&gt;&lt;br&gt;
+.cite[Albouy et al [2019], Irigoien et al [2014]]
+
+---
+# Theoretical approach
+
+&lt;br&gt;
+.center[**Modelling communities to infer their structural and dynamical properties**]
+
+Lotka-Volterra system
+
+`\begin{align}
+  \dfrac{dB_i}{dt} &amp;= \textrm{production} - \textrm{predation losses} - \textrm{internal losses} \\
+  \frac{dB_i}{dt} &amp;= g_iB_i + \sum_j \epsilon A_{ij} B_iB_j-\sum_k A_{ki} B_iB_k - D_iB_i^2
+\end{align}`
+
+&lt;br&gt;
+
+- B biomass
+- A&lt;sub&gt;ij&lt;/sub&gt; interaction matrix
+- g&lt;sub&gt;i&lt;/sub&gt; net growth rate
+- D&lt;sub&gt;i&lt;/sub&gt; self regulation
+- *ϵ* conversion efficiency
+
+---
+# A quick note on self-regulation
+.font80[An important but not well known parameter]
+
+&lt;br&gt;
+.center[**Intraspecific density dependent regulation**
+&lt;br&gt;
+A population’s growth rate is negatively affected by its own population
+density]
+&lt;br&gt;
+Examples :
+- territoriality
+- infanticide
+- intra-guild predation
+- competition for light
+
+&lt;br&gt;
+.center[**Important to match stability levels observed in nature**]
+
+---
+# Temperature and body-mass dependence of biological rates
+
+.pull-left[
+&lt;br&gt;![](images/biological_rates_temp12.svg)]
+
+.pull-right[
+
+`\(\large b_i = m_i^\beta b_0e^{-E/kT}\)`
+
+&lt;br&gt;
+
+* m body mass
+* *β* exponent
+* b&lt;sub&gt;0&lt;/sub&gt;, k constants
+* T temperature
+* E activation energy]
+
+&lt;br&gt;
+
+.center[**Growth and attack rate**]
+.cite[Savage et al [2004], Li et al [2018]]
+
+
+---
+# Theoretical approach
+
+&lt;br&gt;
+.center[**Modelling communities to infer their structural and dynamical properties**]
+
+Lotka-Volterra system
+
+`\begin{align}
+  \frac{dB_i}{dt} = g_i + \sum_j \epsilon A_{ij} B_j-\sum_k A_{ki} B_k - D_iB_i
+\end{align}`
+
+&lt;br&gt;
+
+- **B biomass**
+- A interaction matrix
+- g net growth rate
+- **D self regulation**
+- *ϵ* conversion efficiency
+
+---
+# Estimation of species biomass
+
+.center[Self-regulation is completely unknown...&lt;br&gt;
+Biomass can be inferred from allometric relationship]
+
+.center[
+![:scale 60%](images/hatton.png)]
+.cite[Hatton et al [2019]]
+
+---
+# Method to estimate self-regulation
+
+&lt;br&gt;
+`\begin{align}
+  \frac{dB_i}{dt} = g_iB_i + \sum_j \epsilon A_{ij} B_iB_j-\sum_k A_{ki} B_iB_k - D_iB_i^2
+\end{align}`
+
+&lt;br&gt;&lt;br&gt;
+.center[
+- using estimations of biological rates and biomass
+- allow coexistence
+- equilibrium]
+
+&lt;br&gt;&lt;br&gt;
+
+.center[**Simulate the dynamics of communities and measure some dynamical properties**]
+
+---
+# Metrics of community dynamics
+
+&lt;br&gt;
+.center[
+![:scale 200%](images/measures_chap2_1.svg)
+
+**Trophic control (bottom-up vs top-down)**
+
+`\begin{align}
+  \lambda = \frac{\epsilon A_{21}^2}{D_1D_2}
+\end{align}`
 ]
 
 ---
-# More ressources
+# Metrics of community dynamics
 
-You can check the `xaringan` presentation (which this template relies on):
+&lt;br&gt;
+.center[
+![:scale 200%](images/measures_chap2_2.svg)
 
-https://slides.yihui.org/xaringan/#1
+**Sum species biomass**]
 
-And also check all remark.js fonctionalities available in this template:
+---
+# Metrics of species dynamics
 
-https://remarkjs.com/#1
+&lt;br&gt;
+.center[
+![:scale 200%](images/measures_chap2_3.svg)
 
+**Relative change in species biomass**]
+
+---
+# Metrics of community dynamics
+
+&lt;br&gt;
+.center[
+![:scale 200%](images/measures_chap2_4.svg)
+
+**Variability :  temporal biomass variance in response to stochastic pertubations (community average)**
+
+`\begin{align}
+  \mathcal{V} = tr(C)
+\end{align}`
+`\(C\)` covariance matrix, solution of the Lyapunov equation `\(JC+CJ^T = \mathbb I\)` with `\(J\)` Jacobian matrix]
+
+.cite[Arnoldi et al [2019]]
+
+---
+# Measures of community dynamics
+
+&lt;br&gt;
+.center[
+![:scale 200%](images/measures_chap2_5.svg)
+
+**Collectivity :  importance of indirect interactions (collectivity = 1, a change in species abundance affect other species far in the network)**
+
+`\begin{align}
+  \phi = \rho(M_{ij}) = \max_i|\lambda_i(M)|
+\end{align}`
+
+spectral radius of `\(M_{ij} = A_{ij}/D_i\)`, `\(\lambda_i(M)\)` is the ith eigenvalue of matrix `\(M\)`]
+
+.cite[Arnoldi et al [in prep]]
+
+---
+# Simulate warming
+
+.center[![:scale 80%](images/temp_network2.svg)
+
+- Direct effect of warming on species biological rates
+- Compute the relative change in community metrics
+
+`\begin{align}
+  \Delta(x) = \textrm{log}_{10}(x_{warm}) - \textrm{log}_{10}(x) \approx (x_{warm} - x)/x
+\end{align}`
+]
+
+---
+class: inverse, middle, center
+# Results
+
+---
+# Moderate effect on community properties
+
+&lt;br&gt;
+.center[![](images/figure_metric_change_noTSR.svg)]
+
+---
+# Strong effect at the species level
+
+.center[![:scale 70%](images/figure_biomass_change_noTSR.png)]
+
+---
+# To conclude
+
+&lt;br&gt;&lt;br&gt;
+.center[**Warming affects individual species more significantly than communities as an entity**]
+
+- Increase in top-down control and collectivity and decrease in variability
+- Variation in species biomass, especially species from trophic levels 2 and 3
+
+---
+# Other variables
+
+.center[
+![](images/map_expl_variables.svg)]
 
 ---
 class: inverse
@@ -525,18 +386,20 @@ class: inverse
 .pull-left1[
 &lt;br&gt;
 
-# Key message here
+.font180[Stronger impact of warming at the species level than at the community level]
 
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
 
 **Special thanks to**
 
-Nice people
+- You for listening
+- My collaborators and supervisors
+- Will for the nice template
 ]
 
 .pull-right1[
 &lt;br&gt;
-![:scale 90%](images/logo.png)
+![:scale 200%](images/logo.png)
 ]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>

@@ -1,10 +1,10 @@
 /*title page*/
   .title-slide {
-    background-image: url('../../images/bg.jpg');
+    background-image: url('../../images/bg.png');
     background-color: #23373B;
     background-size: contain;
     border: 0px;
-    background-position: 600px 0;
+    background-position: 50px 0;
     line-height: 1;
     padding: 10em 2em 1em 2em!important;
   }
@@ -14,11 +14,11 @@
     position: absolute;
     top:    15px;
     left:   35px;
-    height: 73px;
-    width:  220px;
+    height: 90px;
+    width:  300px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url(../../images/IE_logo_renversé.png);
+    background-image: url(../../images/logo1.png);
    }
    .uni-logo {
     content: "";
@@ -93,7 +93,7 @@
     margin-left: 0;
     margin-right: 0;
   }
-  
+
 /* slide pages */
   .remark-slide-content {
     font-size: 23px;
