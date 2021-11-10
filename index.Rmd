@@ -84,13 +84,9 @@ class: middle, title-slide
 # Temperature
 .center[Climate change
 
-![:scale 35%](images/global_warming.jpg)
+![:scale 50%](images/global_warming.jpg)
 
-**What are the effects of temperature ?**
-
-- Alter trophic control
-- Decrease stability
-- Trigger extinctions]
+**What are the effects of temperature ?**]
 
 ---
 # Direct effect of temperature
@@ -123,7 +119,11 @@ On their interactions
 On the dynamics of food webs
 <br>
 
-![](images/biological_rates_temp3.svg)]
+![](images/biological_rates_temp3.svg)
+
+- Alter trophic control
+- Decrease stability
+- Trigger extinctions]
 
 ---
 # No synthetic understanding yet
